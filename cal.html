@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>my js projects</title>
+  <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+  <div class="card">
+  <header class="head">
+   <h1> Calculator </h1>
+  </header>
+  <main class="main">
+    <div class="calculator">
+    
+      <lebel class="lebal" >First number :-</lebel>
+      <input type="number" id="num1">
+    
+    
+    <lebel class="lebal">Select oprator :-</lebel>
+    <select id="operation">
+  <option value="none">Select</option>
+      <option value="+">+</option>
+      <option value="-">-</option>
+    <option value="*">*</option>
+   <option value="/">/</option>
+    </select>
+    
+  
+    <lebel class="lebal"> Second number :-</lebel>
+   <input type="number" id="num2">
+      <button onclick="calculator()" class="full-width">Calculate</button>
+      
+      <h3 id="outputArea" class="full-width"></h3> 
+  
+  </div>
+  </main>
+  </div>
+  <script src="cal.js"></script>
+</body>
+
+</html>
